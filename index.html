@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>D3 Select</title>
+
+  <style>
+    .temps {
+        display: inline-block;
+        margin-right: 25px;
+        width: 50px;
+        height: 100px;
+        background-color: #00bf9c;
+        color: #343f47;
+    }
+
+    .bar {
+      fill: purple;
+      }
+
+    .bar:hover {
+      fill: orange;
+      }
+
+    .tooltip {
+        display: none;
+        position: absolute;
+        width: 80px;
+        height: 30px;
+        padding: 2px;
+        font: 12px sans-serif;
+        text-align: center;
+        background: orange;
+        border: 0;
+        border-radius: 10px;
+      }
+
+  </style>
+  
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+</head>
+
+<body>
+
+  <div id="content">
+    <div class="temps"></div>
+    <div class="temps"></div>
+    <div class="temps"></div>
+</div>
+
+  <div class="container">
+    <div class="jumbotron">
+        <h1>Alemi Weather</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-striped">
+                <thead>
+                    <tr><th>date</th><th>low</th><th>high</th></tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div id="content">
+  <div class="temps"></div>
+  <div class="temps"></div>
+  <div class="temps"></div>
+  <div class="temps"></div>
+</div>
+    <div class="container">
+      <div class="row img-gallery">
+        <title>Alemi Select</title>
+          <!-- Thumbnails go here: -->
+      </div>
+  </div>
+
+  <h1>Alemi Header for SVG</h1>
+
+  <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+    <path d="M10 10"/>
+  
+    <!-- Draw a circle 02252020 -->
+    <circle cx="75" cy="100" r="50
+    " fill="red"/>
+  
+  </svg>
+
+
+  <title>Line Chart with Time Axis</title>
+  <link rel="stylesheet" href="styleAxis.css">
+
+
+  <div id="svg-area" width="500" height="250" xmlns="http://www.w3.org/2000/svg"></div>
+ 
+  <div id="text2">This div has an id</div>
+  <div class="my-link">
+    <a href="https://github.com/d3/d3-selection">D3 Home</a>
+  </div>
+
+  <div class="deeplink">
+    <div class="outer">
+      <div class="inner">
+        <a href="https://github.com/d3/d3-selection">D3 Select</a>
+      </div>
+    </div>
+  </div>
+
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+</body>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
+<!-- <script src="svgScaling.js"></script> -->
+<!-- <script src="path.js"></script> -->
+<!-- <script src="lifeExpect.js"></script> -->
+<!--  creates a chart with axis on svg canvas -->
+<!-- <script src="axisLine.js"></script> -->
+<!-- <script src="eventListener.js"></script> -->
+<script type="text/javascript" src="toolTips.js"></script> 
+
+
+</html>

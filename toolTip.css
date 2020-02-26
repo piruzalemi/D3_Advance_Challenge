@@ -1,0 +1,27 @@
+/* .tooltip {
+  display: none;
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  padding: 2px;
+  font: 12px sans-serif;
+  text-align: center;
+  background: orange;
+  border: 0;
+  border-radius: 10px;
+} */
+
+
+.tooltip {
+/* display: none; */
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+  font: 12px sans-serif;
+  text-align: center;
+  color: rgb(172, 27, 27);
+  background: rgb(0, 255, 208);
+  border: 0;
+  border-radius: 10px;
+}
